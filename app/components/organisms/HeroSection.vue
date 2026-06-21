@@ -5,7 +5,7 @@
       
       <h1 class="hero-section__title">La porte d'entrée entre les talents et les équipes qui recrutent</h1>
       
-      <p class="hero-section__description">NEST centralise le recrutement esport pour aider les bons profils à rencontrer les bonnes structures.</p>
+      <p class="hero-section__description">NEEFT centralise le recrutement esport pour aider les bons profils à rencontrer les bonnes structures.</p>
       
       <div class="hero-section__actions">
         <AtomsAppButton variant="primary">Créé ton profil gratuitement</AtomsAppButton>

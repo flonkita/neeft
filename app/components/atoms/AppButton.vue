@@ -38,7 +38,7 @@ const props = defineProps({
 
 .app-button--variant-primary {
   background-color: var(--color-primary);
-  color: #000;
+  color: #FFF;
 }
 
 .app-button--variant-primary:hover {
