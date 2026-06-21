@@ -1,0 +1,61 @@
+:root {
+  /* --- COULEURS --- */
+  --color-background: #0d1117; /* Noir très foncé */
+  --color-background-video: #161b22; /* Légèrement plus clair pour le lecteur vidéo */
+  --color-primary: #f97316; /* Orange vif */
+  --color-primary-light: #fb923c; /* Orange plus clair pour les hovers */
+  --color-text-primary: #f8fafc; /* Blanc cassé */
+  --color-text-muted: #94a3b8; /* Gris pour le sous-titre */
+  --color-border: #1f2937; /* Gris foncé pour les bordures et lignes */
+  --color-button-dark: #1f2937; /* Couleur de fond pour le bouton secondaire */
+  --color-button-dark-hover: #374151;
+
+  /* --- TYPOGRAPHIE --- */
+  /* J'utilise une police générique, à toi d'importer une police comme 'Inter' pour plus de précision */
+  --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-size-hero-title: 60px;
+  --font-size-hero-subtitle: 18px;
+  --font-size-text: 16px;
+  --font-size-nav: 14px;
+  --font-size-button: 16px;
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-normal: 400;
+
+  /* --- ESPACEMENT --- */
+  --spacing-xs: 4px;
+  --spacing-s: 8px;
+  --spacing-m: 16px;
+  --spacing-l: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 64px;
+  --spacing-hero: 120px; /* Espace au-dessus du Hero */
+
+  /* --- AUTRES --- */
+  --border-radius-m: 8px;
+  --border-radius-video: 12px;
+  --transition: all 0.2s ease;
+}
+
+/* --- RESET DE BASE --- */
+*, *::before, *::after {
+  box-sizing: border-radius;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
